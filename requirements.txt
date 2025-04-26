@@ -10,4 +10,5 @@ langchain_experimental
 langchain-pinecone
 uvicorn
 fastapi
+azure-ai-inference
 -e .
