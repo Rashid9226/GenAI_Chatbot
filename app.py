@@ -93,8 +93,7 @@ def load_and_split(directory):
 
 
 #--------vectorstore init------------
-# from langchain.embeddings import HuggingFaceEmbeddings
-from langchain_huggingface import HuggingFaceEmbeddings
+from langchain_community.embeddings import HuggingFaceEmbeddings
 from pinecone.grpc import PineconeGRPC as Pinecone
 from pinecone import ServerlessSpec
 from langchain_pinecone import PineconeVectorStore
