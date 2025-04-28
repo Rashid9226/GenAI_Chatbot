@@ -172,9 +172,9 @@ class QueryRequest(BaseModel):
 class QueryResponse(BaseModel):
     answer: str
 
-@app.get("/")
-async def root():
-    return {"message": "Hello, world"}
+# @app.get("/")
+# async def root():
+#     return {"message": "Hello, world"}
 
 
 @app.post("/query", response_model=QueryResponse)
