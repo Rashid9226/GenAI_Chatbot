@@ -1,3 +1,4 @@
+streamlit
 sentence-transformers
 huggingface_hub==0.20.3
 flask
